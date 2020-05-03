@@ -1,3 +1,29 @@
+# Challenge Notes
+
+## Prerequisite
+* Ruby 2.5.0
+* Rails 5.2
+
+## Steps to run the application
+1. Clone the repo
+
+        git clone https://github.com/raviskit/ruby_edition.git
+        
+2. cd into the directory and run bundle install
+        
+        bundle install
+    
+3. Run the server
+
+        rails s
+
+## My notes
+* Created a Rails application and used the ruby edition of given repository.
+* For testing I have used RSpec and icalendar(https://github.com/icalendar/icalendar) gem for generation ics files.
+* I have covered all the acceptance criteria and bonus points except for doing it in js edition.
+* I have also dockerised the application, just run `` docker-compose up `` to run the application under docker.
+
+
 # Crewmeister coding challenge 
 
 Hello and thanks in participating in the crewmeister coding challenge. This
